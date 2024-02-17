@@ -1,0 +1,120 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #7a1adb;
+    font-family: Arial, sans-serif; /* Adicione uma fonte padrão para todo o texto */
+}
+
+.menu {
+    text-align: center;
+    padding: 5px 0;
+    background-color: #000;
+}
+
+.menu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu input[type="text"] {
+    padding: 8px;
+    margin-left: 10px; /* Adiciona algum espaçamento entre os itens do menu e o campo de pesquisa */
+}
+
+.menu a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.container {
+    text-align: center;
+}
+
+.imagem {
+    display: inline-block;
+    margin-top: 20px; /* Aumenta o espaço superior para a imagem */
+}
+
+.SobreMim {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.SobreMim h1 {
+    color: #7a1adb;
+}
+
+.article img {
+    max-width: 100%;
+    height: auto;
+}
+
+.articles-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Alinha os artigos no centro */
+}
+
+.article {
+    width: 45%; /* Define a largura dos artigos */
+    max-width: 400px; /* Limita a largura máxima dos artigos */
+    margin: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center; /* Centraliza o conteúdo dos artigos */
+}
+
+.article h2 {
+    color: #7a1adb;
+}
+
+.video-container {
+    text-align: center;
+    margin: 20px auto; /* Centraliza o contêiner */
+}
+
+.video-wrapper {
+    position: relative;
+    width: 560px; /* A largura do vídeo */
+    max-width: 100%; /* Para garantir que o vídeo não ultrapasse a largura do contêiner pai */
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px; /* Adiciona algum espaço entre o conteúdo e o rodapé */
+    padding: 10px 0;
+    background-color: #000;
+    color: #fff;
+    position: relative; /* Torna o rodapé um contêiner relativo */
+}
+
+.social-links {
+    position: absolute; /* Posiciona os ícones de forma absoluta */
+    top: 0; /* Alinha os ícones no topo do rodapé */
+    right: 0; /* Alinha os ícones à direita do rodapé */
+    display: flex; /* Para alinhar os ícones horizontalmente */
+    list-style: none; /* Remove os marcadores de lista */
+    padding: 0; /* Remove o preenchimento padrão da lista */
+}
+
+.social-links li {
+    margin-left: 10px; /* Adiciona um espaçamento entre os ícones */
+}
